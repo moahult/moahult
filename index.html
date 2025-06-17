@@ -1,78 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Moa Hult</title>
-      <!--favicon-->
-      <link rel="icon" href="images/favicon-star.png" type="image/x-icon">
-      <link rel="stylesheet" href="style.css">
-      <!--bootstrap insert link-->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-      <!--bootstrap script-->
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <!--font awesome insert link-->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-      <!--font insert link from adobe-->
-      <link rel="stylesheet" href="https://use.typekit.net/tgq2yqd.css">
-   </head>
-   <body>
-      <!--information on top off index site-->
-      <div class="d-flex flex-column bg-container">
-         <ul class="nav index-nav justify-content-between overlay-text px-lg-5 mx-lg-5 px-md-5 mx-md-5 mx-4 px-4 pt-2 pb-1">
-            <li class="nav-item">moa hult</li>
-            <li class="nav-item">&copy; 2025</li>
-            <li class="nav-item">sthlm – sweden</li>
-         </ul>
-         <!--horizontal link left side-->
-         <a class="horizontal-text-left" href="mailto:moa.hult@live.se">contact me!</a>
-         <!--horizontal link right side-->
-         <a class="horizontal-text-right" href="mailto:moa.hult@live.se">contact me!</a>
-         <!--centered picture with text that says portfolio-->
-         <div class="portfolio-image-text">
-            <img src="./images/index/portfolio-text.png" alt="picture of text, says portfolio" class="img-fluid">
-         </div>
-         <!--image with stars for lagre and medium screens-->
-         <div class="star-image-index">
-            <img src="./images/index/star-index-2.png" alt="image of multiple stars around the screen" class="img-fluid">
-         </div>
-         <!--image with stars for small screens-->
-         <div class="star-image-index-small">
-            <img src="./images/index/star-index-sm.png" alt="image of multiple stars around the screen" class="img-fluid">
-         </div>
-         <!--footer of index site that will turn into navbar on other sites-->
-         <div class="mt-auto index-footer">
-            <ul class="nav justify-content-between px-lg-5 mx-lg-5 mb-2 pb-0">
-               <li class="nav-item">
-                  <a href="gd.html" class="nav-link p-0 nav-link-index">
-                  <span class="index-footer-item">graphic design</span>
-                  <img src="images/arrow.png" alt="icon, arrow pointing down" class="arrow-index">
-                  </a>
-               </li>
-               <li class="nav-item">
-                  <a href="ui.html" class="nav-link p-0 nav-link-index">
-                  <span class="index-footer-item">ux/ui design</span>
-                  <img src="images/arrow.png" alt="icon, arrow pointing down" class="arrow-index">
-                  </a>
-               </li>
-               <li class="nav-item">
-                  <a href="art.html" class="nav-link p-0 nav-link-index">
-                  <span class="index-footer-item">art projects</span>
-                  <img src="images/arrow.png" alt="icon, arrow pointing down" class="arrow-index">
-                  </a>
-               </li>
-               <li class="nav-item">
-                  <a href="aboutme.html" class="nav-link p-0 nav-link-index">
-                  <span class="index-footer-item">about me</span>
-                  <img src="images/arrow.png" alt="icon, arrow pointing down" class="arrow-index">
-                  </a>
-               </li>
-            </ul>
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moa Hult</title>
+    <!--favicon-->
+    <link rel="icon" href="images/favicon-star.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <!--bootstrap insert link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <!--bootstrap script-->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!--font awesome insert link-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!--font insert link from adobe-->
+    <link rel="stylesheet" href="https://use.typekit.net/tgq2yqd.css" />
+  </head>
+  <body>
+    <!--information on top off index site-->
+    <div class="d-flex flex-column bg-container">
+      <div class="index-nav-container">
+        <ul
+          class="nav index-nav justify-content-between overlay-text px-lg-5 mx-lg-5 px-md-5 mx-md-5 mx-4 px-4 pt-2 pb-1"
+        >
+          <li class="nav-item">moa hult</li>
+          <li class="nav-item">&copy; 2024</li>
+          <li class="nav-item">sthlm – sweden</li>
+        </ul>
       </div>
-      <!--java script insert links-->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>    
-   </body>
+      <!--horizontal link left side-->
+      <a class="horizontal-text-left" href="mailto:moa.hult@live.se"
+        >contact me!</a
+      >
+      <!--horizontal link right side-->
+      <a class="horizontal-text-right" href="mailto:moa.hult@live.se"
+        >contact me!</a
+      >
+      <!--centered picture with text that says portfolio-->
+      <div class="portfolio-image-text">
+        <img
+          src="./images/index/portfolio-text.png"
+          alt="picture of text, says portfolio"
+          class="img-fluid"
+        />
+      </div>
+      <!--image with stars for lagre and medium screens-->
+      <div class="star-image-index">
+        <img
+          src="./images/index/star-index-2.png"
+          alt="image of multiple stars around the screen"
+          class="img-fluid"
+        />
+      </div>
+      <!--image with stars for small screens-->
+      <div class="star-image-index-small">
+        <img
+          src="./images/index/star-index-sm.png"
+          alt="image of multiple stars around the screen"
+          class="img-fluid"
+        />
+      </div>
+      <div class="star-image-index-mobile">
+        <img 
+          src="./images/index/star-index-mobile.png" 
+          alt="image of multiple stars around the screen"
+          class="img-fluid"
+          />
+      </div>
+      <!--footer of index site that will turn into navbar on other sites-->
+      <div class="index-nav-container mt-auto index-footer">
+        <ul
+          class="nav justify-content-between px-lg-5 mx-lg-5 mb-2 pb-0 px-lg-5 mx-lg-5 px-md-5 mx-md-5 mx-4 px-4 pt-2 pb-1"
+        >
+          <li class="nav-item">
+            <a
+              href="gd.html"
+              class="nav-link p-0 nav-link-index nav-link-footer-index"
+            >
+              <span class="index-footer-item">graphic design</span>
+              <img
+                src="images/arrow.png"
+                alt="icon, arrow pointing down"
+                class="arrow-index"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="ui.html"
+              class="nav-link p-0 nav-link-index nav-link-footer-index"
+            >
+              <span class="index-footer-item">ux/ui design</span>
+              <img
+                src="images/arrow.png"
+                alt="icon, arrow pointing down"
+                class="arrow-index"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="art.html"
+              class="nav-link p-0 nav-link-index nav-link-footer-index"
+            >
+              <span class="index-footer-item">art projects</span>
+              <img
+                src="images/arrow.png"
+                alt="icon, arrow pointing down"
+                class="arrow-index"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="aboutme.html"
+              class="nav-link p-0 nav-link-index nav-link-footer-index"
+            >
+              <span class="index-footer-item">about me</span>
+              <img
+                src="images/arrow.png"
+                alt="icon, arrow pointing down"
+                class="arrow-index"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--java script insert links-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
