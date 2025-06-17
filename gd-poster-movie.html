@@ -1,132 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Poster</title>
-      <!--favicon-->
-      <link rel="icon" href="images/favicon-star.png" type="image/x-icon">
-      <link rel="stylesheet" href="style.css">
-      <!--bootstrap insert link-->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-      <!--bootstrap script-->
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <!--font awesome insert link-->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-      <!--font insert link from adobe-->
-      <link rel="stylesheet" href="https://use.typekit.net/tgq2yqd.css">
-   </head>
-   <body>
-      <!--navbar-->
-      <nav class="navbar navbar-expand-lg">
-         <div class="container-fluid">
-            <!--drop down menu for smaller screens-->  
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-               <!--icon on smaller screens-->
-               <span><img src="images/stars-row.png" alt="button for dropdown" width="70" class="pb-1 m-0"></span>
-            </button>
-            <!--navbar with nav-items-->
-            <div class="collapse navbar-collapse" id="navbarNav">
-               <ul class="navbar-nav mx-auto mb-2">
-                  <li class="nav-item mx-lg-5 px-lg-3 mx-md-3">
-                     <a class="nav-link active pb-1" href="gd.html">graphic design</a>
-                  </li>
-                  <li class="nav-item mx-lg-5 px-lg-3 mx-md-3">
-                     <!--current page-->
-                     <a class="nav-link pb-1" aria-current="page" href="ui.html">ux/ui design</a>
-                  </li>
-                  <li class="nav-item mx-lg-5 px-lg-3 mx-md-3">
-                     <a class="nav-link pb-1" href="art.html">art projects</a>
-                  </li>
-                  <li class="nav-item mx-lg-5 px-lg-3 mx-md-3">
-                     <a class="nav-link pb-1" href="aboutme.html">about me</a>
-                  </li>
-               </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poster</title>
+    <!--favicon-->
+    <link rel="icon" href="images/favicon-star.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <!--bootstrap insert link-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <!--bootstrap script-->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!--font awesome insert link-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!--font insert link from adobe-->
+    <link rel="stylesheet" href="https://use.typekit.net/tgq2yqd.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!--drop down menu for smaller screens-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <!--icon on smaller screens-->
+          <span
+            ><img
+              src="images/stars-row.png"
+              alt="button for dropdown"
+              width="70"
+              class="pb-1 m-0"
+          /></span>
+        </button>
+        <!--navbar with nav-items-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto mb-2">
+            <li class="nav-item mx-lg-5 px-lg-3 mx-md-3">
+              <a class="nav-link active pb-1" href="gd.html">graphic design</a>
+            </li>
+            <li class="nav-item mx-lg-5 px-lg-3 mx-md-3">
+              <!--current page-->
+              <a class="nav-link pb-1" aria-current="page" href="ui.html"
+                >ux/ui design</a
+              >
+            </li>
+            <li class="nav-item mx-lg-5 px-lg-3 mx-md-3">
+              <a class="nav-link pb-1" href="art.html">art projects</a>
+            </li>
+            <li class="nav-item mx-lg-5 px-lg-3 mx-md-3">
+              <a class="nav-link pb-1" href="aboutme.html">about me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="c-container">
+        <div class="h1-box-top">
+          <a href="javascript:history.back()">
+              <img src="./images/arrow-back.png" alt="green arrow pointing to the left" class="back-arrow">
+          </a>
+          <!--first heading-->
+          <h1>Poster</h1>
+        </div>
+        <section>
+          <p>
+            This poster was created during the autumn semester of 2023 as part
+            of a school project. Inspired by Saul Bass, the design emphasizes
+            strong color contrasts and an asymmetrical composition. Hierarchy
+            was established through size contrasts between images and text,
+            placement of key information in the optical center, and the use of
+            whitespace. A sans-serif typeface was chosen for its clarity and
+            suitability for short, impactful messages. The poster aims to
+            communicate the essence of the film through a blend of visuals and
+            typography, creating a compelling and dynamic narrative.
+          </p>
+        </section>
+        <div class="row-container">
+          <div class="column-container">
+            <h2>project duration:</h2>
+            <!--container to make row-->
+            <div class="project-duration-content">
+              <p>2 weeks</p>
             </div>
-         </div>
-      </nav>
-      <main>
-         <div class="c-container">
-            <div class="h1-box">
-               <!--first heading-->
-               <h1>Poster</h1>
+          </div>
+          <div class="column-container">
+            <h2>tools:</h2>
+            <!--container to make row-->
+            <div class="tools-icons">
+              <img
+                src="./images/ui/adobe-illustrator.svg"
+                alt="logotype of adobe illustrator"
+              />
+              <img
+                src="./images/ui/adobe-photoshop.svg"
+                alt="logotype of adobe photoshop"
+              />
             </div>
-            <section>
-                <p>
-                    This poster was created during the autumn semester of 2023 as part of a school project. Inspired by Saul Bass, the design emphasizes strong color contrasts and an asymmetrical composition. Hierarchy was established through size contrasts between images and text, placement of key information in the optical center, and the use of whitespace. A sans-serif typeface was chosen for its clarity and suitability for short, impactful messages. The poster aims to communicate the essence of the film through a blend of visuals and typography, creating a compelling and dynamic narrative.
-                </p>
-            </section>
-            <div class="row-container">
-                  <div class="column-container">
-                                 <h2>project duration:</h2>
-                                 <!--container to make row-->
-                                 <div class="project-duration-content">
-                                    <p>2 weeks</p>
-                                 </div>
-                  </div> 
-                  <div class="column-container">               
-                                 <h2>tools:</h2>
-                                 <!--container to make row-->
-                                 <div class="tools-icons">
-                                    <img src="./images/ui/adobe-illustrator.svg" alt="logotype of adobe illustrator">
-                                    <img src="./images/ui/adobe-photoshop.svg" alt="logotype of adobe photoshop">
-                                 </div>
-                  </div>
-            </div>
-            <div class="h1-box">
-                <h1>illustrations</h1>
-             </div>
-             <div class="gallery">
-                 <img src="./images/gd/poster-movie/poster-illustration-1.jpg" alt="black and white illustration of a mans face" height="350" class="illustration">
-                 <img src="./images/gd/poster-movie/poster-illustration-2.jpg" alt="black and white illustration of a dove flying away" height="350" class="illustration">
-                 <img src="./images/gd/poster-movie/poster-illustration-3.jpg" alt="black and white sketch of composition of poster" height="350" class="illustration">
-             </div>
-             <div class="h1-box">
-                <h1>final product</h1>
-             </div>
-             <div class="gallery">
-                <img src="./images/gd/poster-movie/poster-raul.jpg" alt="red movie poster with a mans face on it and a dove flying away, for the movie 'in the shadows of bravery'" class="poster-img">
-                <img src="./images/gd/poster-rw.jpg" alt="red movie poster, mockup on wall, with a mans face on it and a dove flying away, for the movie 'in the shadows of bravery'" class="poster-img">
-             </div>
-         </div>
-      </main>
-      <!--footer for website-->
-      <footer class="mt-4 mt-md-0 mt-lg-0">
-         <!--first row of footer-->
-         <ul class="nav d-flex align-items-center justify-content-center pb-2 pt-3">
-            <!--icon and phone number-->
-            <li class="mx-1">
-               <span class="mb-0"><img src="images/phone-icon.png" alt="icon, phone" width="17" class="mr-2 pb-1">+46 70 772 70 21</span>
-            </li>
-            <!--image icon-->
-            <li class="mx-2">
-               <img src="images/star-icon-y.png" alt="illustration of star" width="16"> 
-            </li>
-            <!--icon and email adress-->
-            <li class="mx-1">
-               <img src="images/mail-icon.png" alt="icon, envelope" width="17" class="mr-2">
-               <a href="mailto:moa.hult@live.se">moa.hult@live.se</a>
-            </li>
-         </ul>
-         <!--second row of footer-->
-         <ul class="nav d-flex align-items-center justify-content-center">
-            <!--image icon-->
-            <li class="mx-1">
-               <img src="images/star-icon-y.png" alt="illustration of star" width="16" class="mb-3"> 
-            </li>
-            <!--copyright text-->
-            <li class="mx-1">
-               <p class="text-center pb-0">2025 Moa Hult</p>
-            </li>
-            <!--image icon-->
-            <li class="mx-1">
-               <img src="images/star-icon-y.png" alt="illustration of star" width="16" class="mb-3">
-            </li>
-         </ul>
-      </footer>
-      <!--java script insert links-->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>    
-   </body>
+          </div>
+        </div>
+        <div class="h1-box">
+          <h1>illustrations</h1>
+        </div>
+        <div class="gallery space-between">
+          <img
+            src="./images/gd/poster-movie/poster-illustration-1.jpg"
+            alt="black and white illustration of a mans face"
+            height="350"
+            class="illustration"
+          />
+          <img
+            src="./images/gd/poster-movie/poster-illustration-2.jpg"
+            alt="black and white illustration of a dove flying away"
+            height="350"
+            class="illustration"
+          />
+          <img
+            src="./images/gd/poster-movie/poster-illustration-3.jpg"
+            alt="black and white sketch of composition of poster"
+            height="350"
+            class="illustration"
+          />
+        </div>
+        <div class="h1-box">
+          <h1>final product</h1>
+        </div>
+        <div class="gallery gd-gallery">
+          <div class="image-container">
+            <img
+              src="./images/gd/poster-movie/poster-raul.jpg"
+              alt="red movie poster with a mans face on it and a dove flying away, for the movie 'in the shadows of bravery'"
+              class="poster-img"
+            />
+          </div>
+          <div class="image-container">
+            <img
+              src="./images/gd/poster-rw.jpg"
+              alt="red movie poster, mockup on wall, with a mans face on it and a dove flying away, for the movie 'in the shadows of bravery'"
+              class="poster-img"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--footer for website-->
+    <footer class="mt-4 mt-md-0 mt-lg-0">
+      <!--first row of footer-->
+      <ul
+        class="nav d-flex align-items-center justify-content-center pb-2 pt-3"
+      >
+        <!--icon and phone number-->
+        <li class="mx-1">
+          <span class="mb-0"
+            ><img
+              src="images/phone-icon.png"
+              alt="icon, phone"
+              width="17"
+              class="mr-2 pb-1"
+            />+46 70 772 70 21</span
+          >
+        </li>
+        <!--image icon-->
+        <li class="mx-2">
+          <img
+            src="images/star-icon-y.png"
+            alt="illustration of star"
+            width="16"
+          />
+        </li>
+        <!--icon and email adress-->
+        <li class="mx-1">
+          <img
+            src="images/mail-icon.png"
+            alt="icon, envelope"
+            width="17"
+            class="mr-2"
+          />
+          <a href="mailto:moa.hult@live.se">moa.hult@live.se</a>
+        </li>
+      </ul>
+      <!--second row of footer-->
+      <ul class="nav d-flex align-items-center justify-content-center">
+        <!--image icon-->
+        <li class="mx-1">
+          <img
+            src="images/star-icon-y.png"
+            alt="illustration of star"
+            width="16"
+            class="mb-3"
+          />
+        </li>
+        <!--copyright text-->
+        <li class="mx-1">
+          <p class="text-center pb-0">2024 Moa Hult</p>
+        </li>
+        <!--image icon-->
+        <li class="mx-1">
+          <img
+            src="images/star-icon-y.png"
+            alt="illustration of star"
+            width="16"
+            class="mb-3"
+          />
+        </li>
+      </ul>
+    </footer>
+    <!--java script insert links-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
+
