@@ -722,7 +722,7 @@ section {
 
 .gd-gallery .column-container {
   flex-basis: calc(33% - 9px);
-  height: 500px;
+  /*height: 500px;*/
   width: 100%;
   overflow: hidden;
 }
